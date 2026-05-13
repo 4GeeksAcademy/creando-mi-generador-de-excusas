@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Excusas de trabajo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Work+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="layout">
+      <section class="hero-card" aria-live="polite">
+        <p class="eyebrow">Modo supervivencia laboral</p>
+        <h1>Excusas de trabajo</h1>
+        <p class="subtitle">
+          Pulsa el botón para cambiar a una excusa diferente con su respuesta.
+        </p>
+
+        <article class="result" id="result">
+          <h2 id="excuseTitle">Tu excusa aparecerá aquí</h2>
+          <p><strong>Excusa:</strong> <span id="excuseText">Necesito 10 minutos para entrar en modo productividad.</span></p>
+          <p><strong>Respuesta:</strong> <span id="responseText">Hola equipo, tuve un contratiempo puntual. En unos minutos retomo y les comparto avances.</span></p>
+        </article>
+
+        <div class="actions">
+          <button id="changeBtn" type="button">Cambiar excusa</button>
+          <button id="copyBtn" type="button" class="secondary">Copiar texto</button>
+        </div>
+
+        <p class="hint">Consejo: úsala con moderación y prioriza siempre la honestidad cuando sea posible.</p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
